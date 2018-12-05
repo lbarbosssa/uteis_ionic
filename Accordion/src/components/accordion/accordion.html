@@ -1,0 +1,28 @@
+<ion-card>
+  <ion-card-header (click)="toogleAccordion()" class="card-header">
+    Lucas Barbosa
+  </ion-card-header>
+  <ion-card-content #cc class="card-contenr">
+    
+    <ion-item-sliding #item>
+      <ion-item (click)="abrirDetalhes()">
+        <ion-note class="dt_card">
+          05/11/2018
+        </ion-note>
+        <h2><strong>Accounts Payable</strong></h2><br>
+
+        <p>A NFF 14190711 de NOVA SECURITIZAÇÃO S.A. (1.419.232,50 BRL) requer sua aprovação</p>
+      </ion-item>
+
+      <ion-item-options side="right">
+        <button ion-button (click)="aprovar()" color="secondary">
+          <ion-icon name="ios-checkmark-circle-outline"></ion-icon>
+        </button>
+        <button ion-button (click)="reprovar()" color="danger">
+          <ion-icon name="ios-close-circle-outline"></ion-icon>
+        </button>
+      </ion-item-options>
+    </ion-item-sliding>
+
+  </ion-card-content>
+</ion-card>

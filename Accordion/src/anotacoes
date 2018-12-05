@@ -1,0 +1,22 @@
+ionic g component accordion
+
+Declarar o AccordionComponent em declarations no app.module.ts
+
+Montar um html basico no accordion.html
+
+declarar <accordion></accordion> no html onde deseja que apareça
+
+Chamar o toogleAccordion() no header do card
+
+Criar a função toogleAccordion() no ts do accordion
+
+dar um nome ao cardContent com o angular
+
+no ts adicionar a view child: @ViewChild("cc") cardContent: any;
+
+ainda no ts implementar a classe onInit: implements OnInit
+
+Adicionar o ccs na pagina
+
+adicionar o Renderer no contrutor
+
