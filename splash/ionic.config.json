@@ -1,5 +1,7 @@
 {
   "name": "splash",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "ionic-angular"
 }
